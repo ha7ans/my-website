@@ -1,0 +1,79 @@
+@import "./variables";
+
+a:focus,
+button:focus {
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: 1px solid $main-color;
+}
+
+.logo {
+  width: 8%;
+}
+
+img {
+  width: 100%;
+  border: none;
+}
+
+.pro-image {
+  width: 5em;
+  margin-bottom: 15%;
+}
+
+.contact img {
+  width: 2em;
+  margin-bottom: 10%;
+}
+
+li {
+  list-style: none;
+  padding-left: 8rem;
+}
+
+a {
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: $dark-color;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 0.2em 0.8em;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.circle {
+  background: $main-color;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  margin: auto;
+  animation: animate ease-in-out 2s;
+  @keyframes animate {
+    0% {
+      background-color: $light-color;
+      border-radius: 0;
+    }
+    50% {
+      background-color: $mid-color;
+      border-radius: 20%;
+    }
+    100% {
+      background-color: $main-color;
+      border-radius: 50%;
+    }
+  }
+}
+.divider {
+  width: 0.8em;
+  height: 0.8em;
+  background: $main-color;
+  border-radius: 50%;
+  margin: 1% auto 7%;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="UX/UI Designer and Frontend Developer" />
+    <meta
+      name="keywords"
+      content="UI,UX,Design,Frontend Development,Frontend Web Development"
+    />
+    <meta name="author" content="Hasan Softic" />
+    <link rel="stylesheet" href="../scss/main.css" />
+    <title>Hasan Softic | UX/UI Designer and Frontend Web Developer</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="nav-container">
+      <div id="nav">
+      <div class="logo">
+        <img src="./assets/logo.svg" alt="signature" />
+      </div>
+      <div class="js-toggle">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li class="active">
+          <a href="contact.html">Contact</a>
+          <div class="circle"></div>
+        </li>
+      </ul>
+    </div>
+    </header>
+    <main class="wrapper">
+      <div class="title">
+        <div><h1>Contact</h1></div>
+        <div class="divider"></div>
+      </div>
+      <div class="contact-wrapper">
+         <p>You have an idea for the website, app or even software? You need some professional advice about your project? You need to outsource some part of your project? Let's discuss it.</p>
+         <img class="mockup-img" src="./assets/mockup.png" alt="">
+      </div>
+    </main>
+    <section class="contact-form">
+      <form method="POST" data-netlify="true">
+        <label for="name">Name</label>
+        <input class="contact-style" type="text" name="name" id="name" />
+        <label for="email">Email</label>
+        <input
+            class="contact-style"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="janedoe@email.com"
+            required
+          />
+        <label for="message">Message</label>
+        <textarea
+            class="contact-style message-style"
+            type="message"
+            name="message"
+            id="message"
+            placeholder="Type your message..."
+            cols="30"
+            rows="5"
+            required
+          ></textarea>
+          <div class="submit">
+            <button
+              type="submit"
+              class="send"
+            >
+              Send
+            </button>
+          </div>
+          </form>
+        </section>
+    <footer>
+      <div class="copyright">
+        <img class="logo" src="./assets/logo.svg" alt="signature" />
+        <p>Copyright &copy; 2020. All Rights Reserved.</p>
+      </div>
+      <div class="contact">
+        <a href="mailto:hasan_softic@hotmail.com?subject="Project">
+        <div class="card email">
+          <img src="./assets/mail.svg" alt="email" />
+          <h5>Email</h5>
+        </div>
+      </a>
+        <a href="skype:hasan_softic?chat">
+          <div class="card skype">
+            <img src="./assets/skype.svg" alt="skype" />
+            <h5>Skype</h5>
+          </div>
+        </a>
+        <a
+          href="https://api.whatsapp.com/send?phone=38761412992"
+          target="_blank"
+        >
+          <div class="card whatsapp">
+            <img src="./assets/whatsapp.svg" alt="whatsapp" />
+            <h5>Whatsapp</h5>
+          </div>
+        </a>
+        <a href="https://dribbble.com/ha7an" target="_blank">
+          <div class="card dribbble">
+            <img src="./assets/dribbble.svg" alt="dribbble" />
+            <h5>Dribbble</h5>
+          </div>
+        </a>
+      </div>
+    </footer>
+    <script src="./nav.js"></script>
+  </body>
+</html>
